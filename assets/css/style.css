@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/* define header <nav> */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -46,16 +47,13 @@ body {
 a {
     color: #ffffff;
     text-decoration: none;
-} /* cai nay la hyper link */
+} 
 
 p {
     font-size: 16px;
     color:#0072bb
-} /* cai nay la paragraph */
+} 
 
-
-/* cai nay la cai hinh chinh */
-/* cai nay la cai hinh chinh */
 
 .hero {
     height: 800px;
@@ -77,12 +75,11 @@ p {
 }
 
 
- main  /* change this to main */
+ main  /* change this div to main */
 {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-
 }
 
 /* ------------------------*/
@@ -97,6 +94,8 @@ p {
     background-color: #2589bd;
 }
 
+
+/* Grouping id tags to define */
 #benefit-lead,
 #benefit-brand,
 #benefit-cost
@@ -105,6 +104,7 @@ p {
     color: #ffffff;
 }
 
+/* Grouping id tags to define */
 #benefit-lead h3,
 #benefit-brand h3,
 #benefit-cost h3 {
@@ -112,6 +112,7 @@ p {
     text-align: center;
 }
 
+/* Grouping id tags to define */
 #benefit-lead img,
 #benefit-brand img,
 #benefit-cost img
@@ -121,6 +122,12 @@ p {
     max-width: 150px;
 }
 
+/*
+
+since search-engine-optimization, online-reputation-management and social-media-marketing have the same values,
+we can combine them in one class named configure, we also specify the class attributes like img and h2
+
+*/
 .configure {
     margin-bottom: 20px;
     padding: 50px;
