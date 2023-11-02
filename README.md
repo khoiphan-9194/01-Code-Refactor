@@ -1,7 +1,6 @@
 # 01-Code-Refactor
 Structure and descriptive comments were added to the CSS file, and the css rules were clasified accordingly:
 
-
 /* ================================= 
  Structural content style
 ==================================== */
