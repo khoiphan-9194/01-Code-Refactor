@@ -1,4 +1,5 @@
 # 01-Code-Refactor
+In this assignment, I modified some codes that give user have better view when they look at it including sematic elements
 Structure and descriptive comments were added to the CSS file, and the css rules were clasified accordingly:
 
 /* ================================= 
